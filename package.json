@@ -9,8 +9,8 @@
     "gatsby"
   ],
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "predeploy": "gatsby build",
+    "deploy": " gh-pages -d public",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
