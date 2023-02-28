@@ -1,0 +1,37 @@
+{
+  "name": "gatsby-md",
+  "version": "1.0.0",
+  "homepage": "https://abilesck01.github.io",
+  "private": true,
+  "description": "My portfolio",
+  "author": "ABilesck",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gatsby build && gh-pages -d public -b master",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^2.2.1",
+    "@mdx-js/react": "^2.2.1",
+    "gatsby": "^5.5.0",
+    "gatsby-plugin-image": "^3.5.0",
+    "gatsby-plugin-mdx": "^5.6.0",
+    "gatsby-plugin-mdx-source-name": "^1.0.1",
+    "gatsby-plugin-sharp": "^5.5.0",
+    "gatsby-source-filesystem": "^5.6.0",
+    "gatsby-transformer-remark": "^6.6.0",
+    "gatsby-transformer-sharp": "^5.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
